@@ -44,14 +44,21 @@ namespace BackgroundService.Droid
         {
             Android.Util.Log.Debug("NC1", "setup->InitializeLastChance");
             base.InitializeLastChance();
-            //var context = Application.Context;
-            //var intent = new Intent(Application.Context, typeof(MyAndroidService));
-            //context.StartService(intent);
+            StartBackgroundServiceMain();
         }
 
         protected override IMvxNameMapping CreateViewToViewModelNaming()
         {
             return new SimpleViewModelNaming();
+        } 
+        #endregion
+
+        #region Methods
+        private void StartBackgroundServiceMain()
+        {
+            var context = Application.Context;
+            var intent = new Intent(Application.Context, typeof(BackgroundService.BackgroundServiceMain));
+            context.StartService(intent);
         } 
         #endregion
     }

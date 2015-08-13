@@ -78,6 +78,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BackgroundService\BackgroundServiceMain.cs" />
     <Compile Include="Infrastructure\LinkerPleaseInclude.cs" />
     <Compile Include="Setup.cs" />
     <Compile Include="Infrastructure\DebugTrace.cs" />
