@@ -11,11 +11,11 @@ namespace BackgroundService.Core
         public override void Initialize()
         {
             CreatableTypes()
-                .StartingWith("Service")
+                .EndingWith("Service")
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
-            RegisterAppStart<ViewModel.VmMain>();
+            RegisterAppStart<ViewModels.ViewModelMain>();
         }
     }
 }

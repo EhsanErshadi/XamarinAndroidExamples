@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Cirrious.MvvmCross.ViewModels;
 
-namespace BackgroundService.Core.ViewModel
+namespace BackgroundService.Core.ViewModels
 {
-    class VmMain : MvxViewModel
+    class ViewModelMain : MvxViewModel
     {
         private string _hello = "Hello MvvmCross";
         public string Hello

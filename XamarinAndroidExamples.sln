@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exam940522-BackgroundServic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundService.Core", "Exam940522-BackgroundService\BackgroundService.Core\BackgroundService.Core.csproj", "{145C0031-B640-4241-8621-321A57CA78DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundService.Droid", "Exam940522-BackgroundService\BackgroundService.Droid\BackgroundService.Droid.csproj", "{61D63C3E-7F5E-47DB-BCF6-79F726D7ABD5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,11 +19,18 @@ Global
 		{145C0031-B640-4241-8621-321A57CA78DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{145C0031-B640-4241-8621-321A57CA78DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{145C0031-B640-4241-8621-321A57CA78DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61D63C3E-7F5E-47DB-BCF6-79F726D7ABD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61D63C3E-7F5E-47DB-BCF6-79F726D7ABD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61D63C3E-7F5E-47DB-BCF6-79F726D7ABD5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{61D63C3E-7F5E-47DB-BCF6-79F726D7ABD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61D63C3E-7F5E-47DB-BCF6-79F726D7ABD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61D63C3E-7F5E-47DB-BCF6-79F726D7ABD5}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{145C0031-B640-4241-8621-321A57CA78DF} = {BCBE122F-5E01-439E-B82E-44A27E9D8DDF}
+		{61D63C3E-7F5E-47DB-BCF6-79F726D7ABD5} = {BCBE122F-5E01-439E-B82E-44A27E9D8DDF}
 	EndGlobalSection
 EndGlobal
